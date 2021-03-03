@@ -14,6 +14,7 @@ textarea {
 }
 body {
 	background: lightslategray;
+	margin: 3%;
 }
 textarea {
 	margin: 9px;
@@ -28,6 +29,8 @@ h1,h2,h3,h4,h5,h6 {
 	border-right: 2px solid gray;
 	display: flex;
 	justify-content: center;
+	margin-top: -20px;
+	border-radius: 15px;
 }
 .title h1 {
 	color: black;
@@ -45,10 +48,15 @@ h1,h2,h3,h4,h5,h6 {
 	border-bottom: 2px solid gray;
 	border-right: 2px solid gray;
 	background: white;
+	margin-top: -30px;
+}
+.journalEntries audio {
+	margin-left: 20px;
 }
 .navBar{
 	color:black;
 	text-align: right;
+	margin-right: 15px;
 }
 a:link {
 	text-decoration: none;
@@ -73,7 +81,6 @@ main {
 }
 .firstBox {
 	width: 60%;
-	border-left: 2px solid gray;
 	border-bottom: 2px solid gray;
 }
 .secondBox {
@@ -91,19 +98,22 @@ main {
 }
 label {
 	margin-left: 20px;
-	font-size: 22px;
+	font-size: 30px;
 	font-family: 'Fascinate', cursive;
 }
 footer {
-	border: 2px solid yellow;
+	background: white;
+	border-bottom: 2px solid gray;
+	border-right: 2px solid gray;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 footer p {
 	font-size: 25px;
 	text-align: right;
-	margin-top: 0px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 15px;
 }
-footer audio {
-	margin-bottom: -30px;
-	padding-left: 20px;
-}
+
 
