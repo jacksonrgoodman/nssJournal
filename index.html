@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Nashville Software School</title>
+        <title>Jackson Notes</title>
         <link rel="stylesheet" href="./styles/main.css">
     </head>
 
@@ -21,15 +21,19 @@
         <main id="container">
             <div class="bin">
                 <div class="firstBox">
-                    <article><br/></article>
+                    <article class="journalEntries"><br/></article>
                 </div>
                 <div class="secondBox">
-                    <article><br/></article>
+                    <form class="form" action="push">
+                        <label for="newJournalEntry"><strong>New Journal Entry:</strong></label>
+                        <textarea name="newJournalEntry" id="newJournalEntry" cols="30" rows="10"></textarea>
+                    </form>
                 </div>
             </div>
         </main>
         <footer>
-            <p>&copy; nobodee 2021</p>
+            
+            <p><audio src="/audio/05 MAAD WORLD.mp3" autoplay controls></audio>&copy; nobodee 2021</p>
         </footer>
         <script type="module" src="./scripts/main.js"></script>
     </body>

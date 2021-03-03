@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Fascinate&display=swap');
 
 /*Typography
 --------------------------------------------------------------*/
@@ -7,32 +7,46 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-family: "Comfortaa", Arial, sans-serif;
-	font-size: 14px;
+	color: black;
+	font-size: 25px;
 	line-height: 1.5;
+	resize: none;
 }
-
+body {
+	background: lightslategray;
+}
+textarea {
+	margin: 9px;
+	font-family: 'DotGothic16', sans-serif;
+}
 h1,h2,h3,h4,h5,h6 {
-  font-family: "Patua One", serif;
-  letter-spacing: 2px;
+	font-family: 'DotGothic16', sans-serif;
+  	letter-spacing: 2px;
 }
 .title {
-	border: 2px solid darkorange;
+	background: whitesmoke;
+	border-right: 2px solid gray;
 	display: flex;
 	justify-content: center;
 }
 .title h1 {
-	margin-bottom: 0;
+	color: black;
+}
+.jacksonLogo {
+	display: flex;
 }
 .jacksonLogoImage {
+	margin-top: 45px;
+	margin-left: -10px;
 	width: 60px;
+	height: 60px;
 }
 .navBin {
-	border: 2px solid purple;
+	border-bottom: 2px solid gray;
+	border-right: 2px solid gray;
+	background: white;
 }
 .navBar{
-	border:springgreen;
 	color:black;
 	text-align: right;
 }
@@ -48,31 +62,48 @@ a:hover {
 a:active { 
 	text-decoration: none;
 }
-body {
-	border: 2px solid green;
-}
 .container {
 	border:2px solid red;
 }
+main {
+	background: whitesmoke;
+}
 .bin {
-	border:2px solid blue;
 	display: flex;
 }
 .firstBox {
 	width: 60%;
-	border: 2px solid darkred;
+	border-left: 2px solid gray;
+	border-bottom: 2px solid gray;
 }
 .secondBox {
 	width: 40%;
 	height: 100%;
-	border: 2px solid skyblue;
+	border-right: 2px solid gray;
+	border-left: 2px solid gray;
+	border-bottom: 2px solid gray;
+	display: flex;
+	flex-direction: column;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+}
+label {
+	margin-left: 20px;
+	font-size: 22px;
+	font-family: 'Fascinate', cursive;
 }
 footer {
-	text-align: right;
 	border: 2px solid yellow;
 }
 footer p {
+	font-size: 25px;
+	text-align: right;
 	margin-top: 0px;
-	margin-bottom: -5px;
+}
+footer audio {
+	margin-bottom: -30px;
+	padding-left: 20px;
 }
 
