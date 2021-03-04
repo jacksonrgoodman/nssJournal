@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Fascinate&display=swap');
-
+/* @font-face {
+    font-family: "yeezus";
+    src: url("/fonts/FutureFnt-Regular.woff2") format('woff');
+}; */
 /*Typography
 --------------------------------------------------------------*/
 body,
@@ -30,6 +33,7 @@ h1,h2,h3,h4,h5,h6 {
 	display: flex;
 	justify-content: center;
 	margin-top: -20px;
+	margin-bottom: 0px;
 	border-radius: 15px;
 }
 .title h1 {
@@ -39,7 +43,7 @@ h1,h2,h3,h4,h5,h6 {
 	display: flex;
 }
 .jacksonLogoImage {
-	margin-top: 45px;
+	margin-top: 40px;
 	margin-left: -10px;
 	width: 60px;
 	height: 60px;
@@ -96,10 +100,58 @@ main {
 	display: flex;
 	flex-direction: column;
 }
+.musicPlayerBin {
+	background: rgba(241, 243, 244, 1);
+	border-right: 2px solid gray;
+	border-bottom: 2px solid gray;
+	width: 99.89%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.musicBox {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.playlist {
+	display: flex;
+}
+.playlistImage {
+	width: 240px;
+	border-right: 2px solid gray;
+}
+.musicBox p {
+	font-family: 'DotGothic16', sans-serif;
+	background: teal;
+	width:101%;
+	color: white;
+	font-size: 18px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	flex-wrap: wrap;
+	text-align: center;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+audio {
+	margin: 0px;
+	border-bottom: 1px dotted gray;
+	border-right: 1px dotted gray;
+	border-left: 1px dotted gray;
+	margin-bottom: -15px;
+	margin-left: 10px;
+	width: 365px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
 label {
-	margin-left: 20px;
+	margin-left: 10px;
 	font-size: 30px;
 	font-family: 'Fascinate', cursive;
+	/* font-family: 'yeezus'; */
 }
 footer {
 	background: white;
