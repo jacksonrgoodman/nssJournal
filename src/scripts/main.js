@@ -1,5 +1,5 @@
 import {getPosts} from "./data/DataManager.js";
-import {PostList} from "./feed/PostList.js";
+import {PostList} from "./entries/PostList.js";
 
 console.log("Welcome to the main module");
 

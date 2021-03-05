@@ -3,11 +3,11 @@ export const Post = (postObject) => {
       <section class="post">
         <header>
             <h2 class="post__title">${postObject.title}</h2>
-            <p>posted by ${postObject.name}</p>
+            <p>posted by ${postObject.userId} on ${postObject.timestamp}</p>
         </header>
-        <img class="post__image" src="${postObject.imageURL}" />
+        <img class="post__image" src="/src/images/playlist/${postObject.image}" />
         <p>Mood: ${postObject.mood}</p>
-        <p>${postObject.description}</p>
+        <p>${postObject.text}</p>
       </section>
     `
   }
