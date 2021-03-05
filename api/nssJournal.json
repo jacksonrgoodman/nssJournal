@@ -1,0 +1,31 @@
+{
+  "user": [
+    {
+      "name": "Jackson",
+      "email": "jacksonrgoodman@gmail.com",
+      "id": 1
+    }
+  ],
+  "entries": [
+    {
+      "title": "Friday",
+      "text": "ok that was some work",
+      "image": "GKTF cover.png",
+      "timestamp": "03-04-21",
+      "mood": "happy",
+      "userId":"Jackson",
+      "id": 1
+    }
+  ],
+  "playlist": [
+    {
+      "title": "MAAD WORLD",
+      "artist": "toastydigital,{Kanye West & Kendrick Lamar}",
+      "audioFile": "05 MAAD WORLD.mp3",
+      "albumArt": "GKTF cover.png",
+      "year": "2021",
+      "timeLength": 144,
+      "id": 1
+    }
+  ]
+}

@@ -87,6 +87,9 @@ main {
 	width: 60%;
 	border-bottom: 2px solid gray;
 }
+.post__image{
+	width: 240px;
+}
 .secondBox {
 	width: 40%;
 	height: 100%;
