@@ -108,7 +108,8 @@ main {
 	width: 600px;
 }
 .gamesButton img {
-	width: 120px;
+	margin-top: 25px;
+	width: 320px;
 	display: flex;
 	align-items: center;
 }
