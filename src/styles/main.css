@@ -54,8 +54,13 @@ h1,h2,h3,h4,h5,h6 {
 	background: white;
 	margin-top: -30px;
 }
-.journalEntries audio {
-	margin-left: 20px;
+.post {
+	background: white;
+	margin: 0;
+}
+.post p, .post img {
+	margin: 0;
+	background: white;
 }
 .navBar{
 	color:black;
@@ -87,6 +92,10 @@ main {
 	width: 60%;
 	border-bottom: 2px solid gray;
 }
+.post {
+	margin-left: 15px;
+	height:200px;
+}
 .post__image{
 	width: 240px;
 }
@@ -112,7 +121,7 @@ main {
 }
 .gamesButton img {
 	margin-top: 25px;
-	width: 320px;
+	width: 166px;
 	display: flex;
 	align-items: center;
 }
@@ -120,50 +129,18 @@ main {
 	background: rgba(241, 243, 244, 1);
 	border-right: 2px solid gray;
 	border-bottom: 2px solid gray;
-	width: 99.89%;
-	margin: 0;
-	padding: 0;
+	height: 240px;
 	display: flex;
-}
-.musicBox {
-	width:700px;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
+	align-items: right;
 }
 .playlist {
-	display: flex;
-}
-.playlistImage {
-	width:240px;
-	height:240px;
 	border-right: 2px solid gray;
 }
-.musicBox p {
-	font-family: 'DotGothic16', sans-serif;
-	background: teal;
-	width:101%;
-	color: white;
-	font-size: 18px;
-	margin-top: 30px;
-	margin-bottom: 0px;
-	margin-left: 10px;
-	text-align: left;
-	margin-right: 40px;
-	border-top-right-radius: 5px;
-	border-top-left-radius: 5px;
-	border-bottom-right-radius: 5px;
+.playlistImage {
+	height: 240px;
 }
-audio {
-	margin: 0px;
-	border-bottom: 1px dotted gray;
-	border-right: 1px dotted gray;
-	border-left: 1px dotted gray;
-	margin-bottom: -15px;
-	margin-left: 10px;
-	width: 365px;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
+iframe {
+	border-right: 2px solid gray;
 }
 label {
 	margin-left: 10px;
