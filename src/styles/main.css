@@ -87,6 +87,10 @@ main {
 	width: 60%;
 	border-bottom: 2px solid gray;
 }
+.post {
+	margin-left: 15px;
+	height:200px;
+}
 .post__image{
 	width: 240px;
 }
