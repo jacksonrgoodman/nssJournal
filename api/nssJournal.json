@@ -10,21 +10,18 @@
     {
       "title": "Friday",
       "text": "ok that was some work",
-      "image": "/playlist/GKTF cover.png",
+      "image": "",
       "timestamp": "03-04-21",
       "mood": "happy",
-      "userId":"Jackson",
+      "userId": "Jackson",
       "id": 1
     }
   ],
-  "playlist": [
+  "playlist": [],
+  "randomPlaylistArt": [
     {
-      "title": "MAAD WORLD",
-      "artist": "toastydigital,{Kanye West & Kendrick Lamar}",
-      "audioFile": "05 MAAD WORLD.mp3",
-      "albumArt": "GKTF cover.png",
-      "year": "2021",
-      "timeLength": 144,
+      "link": "https://i.ibb.co/HB19GzZ/playlist1.png",
+      "title": "playlist 1",
       "id": 1
     }
   ]
