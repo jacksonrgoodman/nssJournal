@@ -4,10 +4,10 @@ export const Post = (postObject) => {
         <header>
             <h2 class="post__title">${postObject.title}</h2>
             <p>posted by ${postObject.userId} on ${postObject.timestamp}</p>
+            <img class="post__image" src="${postObject.image}"/>
+            <p>Mood: ${postObject.mood}</p>
+            <p>${postObject.text}</p>
         </header>
-        <img class="post__image" src="/src/images/${postObject.image}"/>
-        <p>Mood: ${postObject.mood}</p>
-        <p>${postObject.text}</p>
       </section>
     `
   }
