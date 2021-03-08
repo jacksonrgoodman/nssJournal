@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Fascinate&display=swap');
-/* @font-face {
-    font-family: "yeezus";
-    src: url("/fonts/FutureFnt-Regular.woff2") format('woff');
-}; */
+
 /*Typography
 --------------------------------------------------------------*/
 body,
@@ -24,8 +21,11 @@ textarea {
 	font-family: 'DotGothic16', sans-serif;
 }
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'DotGothic16', sans-serif;
+	font-family: 'Fascinate', cursive;
   	letter-spacing: 2px;
+}
+p {
+	font-family: 'DotGothic16', sans-serif;
 }
 .title {
 	background: whitesmoke;
@@ -118,9 +118,25 @@ main {
 	flex-direction: column;
 	height: 900px;
 }
+.secondBox input {
+	margin: 9px;
+	width: 96.5%;
+	font-family: 'DotGothic16', sans-serif;
+}
+.secondBox select {
+	width: 81.5%;
+	margin: 9px;
+	margin-top: 0%;
+	font-family: 'DotGothic16', sans-serif;
+}
 .form {
 	display: flex;
 	flex-direction: column;
+}
+button {
+	width: 100%;
+	font-family: 'DotGothic16', sans-serif;
+	font-size: 35px;
 }
 
 .filler {

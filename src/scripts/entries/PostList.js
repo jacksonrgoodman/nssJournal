@@ -8,5 +8,4 @@ export const PostList = (allPosts) => {
 			postHTML += Post(postObject)
 		}
 		return postHTML;
-	
-}
+};
