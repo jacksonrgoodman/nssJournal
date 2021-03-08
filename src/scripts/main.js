@@ -6,10 +6,8 @@ import {getSoundcloud} from "./data/DataManager.js";
 import {soundcloudList} from "./soundcloud/PostList.js";
 console.log("Welcome to the main module");
 
-
-
 const showPostList = () => {
-const postElement = document.querySelector(".journalEntries");
+    const postElement = document.querySelector(".journalEntries");
 getPosts().then((allPosts) => {
     postElement.innerHTML = PostList(allPosts);
 })
