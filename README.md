@@ -5,7 +5,8 @@ Daily Journal for NSS Cohort 47
 - [ ] New feature
 - [ ] Breaking change
 # Testing Instructions
-git clone and serve in nssJournal directory. 
+git clone and serve in nssJournal directory.
+\
 Serve JSON server nssJournal/api/nssJournal.json.
 # Checklist:
 - [ ] My code follows the style guidelines of this project
