@@ -143,13 +143,12 @@ button {
 
 .musicPlayerBin {
 	background: rgba(241, 243, 244, 1);
-	border-right: 2px solid gray;
 	border-bottom: 2px solid gray;
 	height: 320px;
 	display: flex;
 	align-items: right;
 }
-.playlist {
+.musicPlayerBin img {
 	border-right: 2px solid gray;
 }
 .playlistImage {
