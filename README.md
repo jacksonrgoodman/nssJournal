@@ -2,14 +2,16 @@
 Daily Journal Project for NSS Cohort 47
 
 ## Installation
-
-git clone this repository
+git clone this repository to your local directory
 
 ## Usage
+1. run serve in root
 
-serve in nssJournal directory
+2. run json-server -p 8088 -w giffygram.json in the api directory
 
-Serve JSON server nssJournal/api/nssJournal.json.
+3. navigate in browser to locoalhost:5000/src
+
+4. Have fun and be yourself :D 💯
 
 ## Contributing
 just me so far!
