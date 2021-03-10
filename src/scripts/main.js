@@ -1,7 +1,8 @@
-import {getPosts,getSoundcloud,getPlaylistImages} from "./data/DataManager.js";
+import {getPosts} from "./data/DataManager.js";
 import {PostList} from "./entries/PostList.js";
-import {playlistImageList} from "./playlistImage/playlistImageList.js"
-import {soundcloudList} from "./soundcloud/soundcloudList.js";
+// import {getSoundcloud,getPlaylistImages} from "./data/DataManager.js";
+// import {playlistImageList} from "./playlistImage/playlistImageList.js"
+// import {soundcloudList} from "./soundcloud/soundcloudList.js";
 console.log("Welcome to the main module");
 
 const showPostList = () => {
@@ -11,24 +12,24 @@ getPosts().then((allPosts) => {
 })
 }
 
-const showPlaylistImageList = () => {
-    const postElement = document.querySelector(".playlist");
-    getPlaylistImages().then((allPosts)=> {
-        postElement.innerHTML = playlistImageList(allPosts);
-    })
-}
+// const showPlaylistImageList = () => {
+//     const postElement = document.querySelector(".playlist");
+//     getPlaylistImages().then((allPosts)=> {
+//         postElement.innerHTML = playlistImageList(allPosts);
+//     })
+// }
 
-const showSoundcloudPostList = () => {
-    const postElement = document.querySelector(".soundcloud");
-    getSoundcloud().then((allPosts) => {
-        postElement.innerHTML = soundcloudList(allPosts);
-    })
-}
+// const showSoundcloudPostList = () => {
+//     const postElement = document.querySelector(".soundcloud");
+//     getSoundcloud().then((allPosts) => {
+//         postElement.innerHTML = soundcloudList(allPosts);
+//     })
+// }
 
 const startNSSJournal = () => {
 showPostList();
-showPlaylistImageList();
-showSoundcloudPostList();
+// showPlaylistImageList();
+// showSoundcloudPostList();
 };
 startNSSJournal();
 
