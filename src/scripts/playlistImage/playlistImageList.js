@@ -1,4 +1,4 @@
-import { playlistImage } from "./Post.js";
+import { playlistImage } from "./playlistImage.js";
 
 
 
