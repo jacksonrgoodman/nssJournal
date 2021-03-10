@@ -1,4 +1,4 @@
-import { Post } from "./Post.js";
+import { Post } from "./Entry.js";
 
 export const PostList = (allPosts) => {
 	let postHTML = "";

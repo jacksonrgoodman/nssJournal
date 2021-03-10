@@ -1,9 +1,19 @@
 import {getPosts} from "./data/DataManager.js";
-import {PostList} from "./entries/PostList.js";
-// import {getSoundcloud,getPlaylistImages} from "./data/DataManager.js";
-// import {playlistImageList} from "./playlistImage/playlistImageList.js"
-// import {soundcloudList} from "./soundcloud/soundcloudList.js";
+import {PostList} from "./entries/EntryList.js";
+
 console.log("Welcome to the main module");
+
+//? send Button Listener
+const sendButtonListener = document.querySelector("#newJournalEntrySubmit")
+sendButtonListener.addEventListener("mouseover", event => {
+    if (event.target.id === "newJournalEntrySubmit"){
+    console.log("You moused over that there 'Send ?' button")
+    }
+})
+
+//?
+
+
 
 const showPostList = () => {
     const postElement = document.querySelector(".journalEntries");
@@ -12,24 +22,9 @@ getPosts().then((allPosts) => {
 })
 }
 
-// const showPlaylistImageList = () => {
-//     const postElement = document.querySelector(".playlist");
-//     getPlaylistImages().then((allPosts)=> {
-//         postElement.innerHTML = playlistImageList(allPosts);
-//     })
-// }
-
-// const showSoundcloudPostList = () => {
-//     const postElement = document.querySelector(".soundcloud");
-//     getSoundcloud().then((allPosts) => {
-//         postElement.innerHTML = soundcloudList(allPosts);
-//     })
-// }
-
 const startNSSJournal = () => {
 showPostList();
-// showPlaylistImageList();
-// showSoundcloudPostList();
 };
+
 startNSSJournal();
 
