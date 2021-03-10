@@ -1,4 +1,4 @@
-import { soundcloudPost } from "./Post.js";
+import { soundcloudPost } from "./soundlcoud.js";
 
 export const soundcloudList = (allPosts) => {
 	let postHTML = "";

@@ -1,9 +1,9 @@
 import {getPosts} from "./data/DataManager.js";
 import {PostList} from "./entries/PostList.js";
 import {getPlaylistImages} from "./data/DataManager.js";
-import {playlistImageList} from "./playlistImage/Post List.js"
+import {playlistImageList} from "./playlistImage/playlistImageList.js"
 import {getSoundcloud} from "./data/DataManager.js";
-import {soundcloudList} from "./soundcloud/PostList.js";
+import {soundcloudList} from "./soundcloud/soundcloudList.js";
 console.log("Welcome to the main module");
 
 const showPostList = () => {
