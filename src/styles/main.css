@@ -11,6 +11,7 @@ textarea {
 	font-size: 25px;
 	line-height: 1.5;
 	resize: none;
+	width: 96.5%;
 }
 body {
 	background: lightslategray;
@@ -20,7 +21,7 @@ textarea {
 	margin: 9px;
 	font-family: 'DotGothic16', sans-serif;
 }
-h1,h2,h3,h4,h5,h6 {
+h3,h4,h5,h6 {
 	font-family: 'Fascinate', cursive;
   	letter-spacing: 2px;
 }
@@ -38,6 +39,7 @@ p {
 }
 .title h1 {
 	color: black;
+	font-family: 'DotGothic16', sans-serif;
 }
 .jacksonLogo {
 	display: flex;
@@ -101,15 +103,15 @@ main {
 	display: flex;
 }
 .firstBox {
-	width: 60%;
+	width: 55%;
 	border-bottom: 2px solid gray;
 	height: 900px;
 }
-.post__image{
-	width: 720px;
+.firstBox h2{
+	font-family: 'DotGothic16', sans-serif;
 }
 .secondBox {
-	width: 40%;
+	width: 45%;
 	height: 100%;
 	border-right: 2px solid gray;
 	border-left: 2px solid gray;
@@ -124,7 +126,7 @@ main {
 	font-family: 'DotGothic16', sans-serif;
 }
 .secondBox select {
-	width: 81.5%;
+	width: 79%;
 	margin: 9px;
 	margin-top: 0%;
 	font-family: 'DotGothic16', sans-serif;
@@ -139,18 +141,6 @@ button {
 	font-size: 35px;
 }
 
-.filler {
-	border-right: 2px solid gray;
-	display: flex;
-	justify-content: center;
-	width: 600px;
-}
-.gamesButton img {
-	margin-top: 25px;
-	width: 166px;
-	display: flex;
-	align-items: center;
-}
 .musicPlayerBin {
 	background: rgba(241, 243, 244, 1);
 	border-right: 2px solid gray;
@@ -172,7 +162,6 @@ label {
 	margin-left: 10px;
 	font-size: 30px;
 	font-family: 'Fascinate', cursive;
-	/* font-family: 'yeezus'; */
 }
 footer {
 	background: white;

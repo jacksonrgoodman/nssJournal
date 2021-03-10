@@ -12,6 +12,3 @@ export const playlistImageList = (allPosts) => {
 		return postHTML;
 	
 }
-
-// const random = Math.floor(Math.random() * playlistImage.length);
-// console.log(random, months[random]);
