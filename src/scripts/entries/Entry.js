@@ -1,4 +1,4 @@
-export const Post = (postObject) => {
+export const Entry = (postObject) => {
     return `
       <section class="post">
         <header>
@@ -10,3 +10,4 @@ export const Post = (postObject) => {
       </section>
     `
   }
+  
