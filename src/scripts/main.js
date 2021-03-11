@@ -1,5 +1,6 @@
 import {getPosts} from "./data/DataManager.js";
 import {PostList} from "./entries/EntryList.js";
+import {searchHeader} from "./nav/entrySearchBar.js";
 
 console.log("Welcome to the main module");
 
@@ -11,7 +12,15 @@ sendButtonListener.addEventListener("mouseover", event => {
     }
 })
 
-//?
+//? search header html
+const showSearchHeader = () => {
+    //Get a reference to the location on the DOM where the nav will display
+    const navElement = document.querySelector("#searchbar");
+	navElement.innerHTML = searchHeader();
+}
+
+//? mood sorter
+
 
 
 
@@ -24,6 +33,7 @@ getPosts().then((allPosts) => {
 
 const startNSSJournal = () => {
 showPostList();
+showSearchHeader();
 };
 
 startNSSJournal();

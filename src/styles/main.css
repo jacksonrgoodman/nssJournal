@@ -107,6 +107,14 @@ main {
 	border-bottom: 2px solid gray;
 	height: 900px;
 }
+.search__item p {
+	margin-left: 20px;
+	display: inline;
+}
+#yearSelection {
+	width: fit-content;
+	font-family: 'DotGothic16', sans-serif;
+}
 .firstBox h2{
 	font-family: 'DotGothic16', sans-serif;
 }
@@ -130,6 +138,7 @@ main {
 	margin: 9px;
 	margin-top: 0%;
 	font-family: 'DotGothic16', sans-serif;
+	width: fit-content;
 }
 .form {
 	display: flex;
@@ -147,8 +156,13 @@ button {
 	height: 320px;
 	display: flex;
 	align-items: right;
+	width: 99.85%;
 }
 .musicPlayerBin img {
+	border-right: 2px solid gray;
+}
+.filler {
+	width: 120px;
 	border-right: 2px solid gray;
 }
 .playlistImage {
