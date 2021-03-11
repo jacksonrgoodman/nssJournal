@@ -104,8 +104,8 @@ main {
 }
 .firstBox {
 	width: 55%;
-	border-bottom: 2px solid gray;
-	height: 900px;
+	border-right: 2px solid gray;
+	height: 100%;
 }
 .search__item p {
 	margin-left: 20px;
@@ -123,26 +123,32 @@ main {
 	height: 100%;
 	border-right: 2px solid gray;
 	border-left: 2px solid gray;
-	border-bottom: 2px solid gray;
 	display: flex;
 	flex-direction: column;
-	height: 900px;
+	height: 100%;
 }
 .secondBox input {
-	margin: 9px;
-	width: 96.5%;
+	margin: 0%;
+	margin-left: 9px;
+	width: fit-content;
 	font-family: 'DotGothic16', sans-serif;
 }
 .secondBox select {
 	width: 79%;
-	margin: 9px;
+	margin-left: 9px;
 	margin-top: 0%;
 	font-family: 'DotGothic16', sans-serif;
-	width: fit-content;
+}
+#conceptsCovered {
+	margin: 0;
+	margin-left: 9px;
 }
 .form {
 	display: flex;
 	flex-direction: column;
+}
+.form article{
+	margin-bottom: 0;
 }
 button {
 	width: 100%;
@@ -157,6 +163,7 @@ button {
 	display: flex;
 	align-items: right;
 	width: 99.85%;
+	border-top: 2px solid gray;
 }
 .musicPlayerBin img {
 	border-right: 2px solid gray;
