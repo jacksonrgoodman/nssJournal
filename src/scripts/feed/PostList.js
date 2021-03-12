@@ -1,11 +1,12 @@
-import { Entry } from "./Entry.js";
+import { Post } from "./Post.js";
 
-export const entryList = (allPosts) => {
+export const postList = (allPosts) => {
 	let postHTML = "";
 		//Loop over the array of posts and for each one, invoke the Post component which returns HTML representation
 		for (const postObject of allPosts) {
 			//what is a postObject?
-			postHTML += Entry(postObject)
+			postHTML += Post(postObject)
 		}
 		return postHTML;
-};
+	
+}

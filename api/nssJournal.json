@@ -1,35 +1,19 @@
 {
-  "user": [
+  "users": [
     {
       "name": "Jackson",
       "email": "jacksonrgoodman@gmail.com",
       "id": 1
     }
   ],
-  "entries": [
+  "posts": [
     {
-      "title": "Almost Midnight",
-      "text": "I went to an art gallery in vr before dinner, https://i.ibb.co/12Sgz1r/quest-art-gallery.jpg",
-      "timestamp": "03-6-2021",
-      "mood": "tired",
+      "title": "hey",
+      "mood": "Happy",
+      "description": "anyone",
       "userId": "Jackson",
+      "timestamp": 1615497621699,
       "id": 1
-    },
-    {
-      "title": "Really hurt my eye today",
-      "text": "I feel kind of stunned",
-      "timestamp": "03-09-2021",
-      "mood": "frustrated",
-      "userId": "Jackson",
-      "id": 2
-    },
-    {
-      "title": "My eye feels better",
-      "text": "I hope I didn't fall behind",
-      "timestamp": "03-10-2021",
-      "mood": "happy",
-      "userId": "Jackson",
-      "id": 3
     }
   ]
 }
