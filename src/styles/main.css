@@ -56,7 +56,7 @@ p {
 	background: white;
 	margin-top: -30px;
 }
-.post {
+#post {
 	/* background: white; */
 	border-left: 1px solid gray;
 	border-top: 1px solid gray;
@@ -70,7 +70,7 @@ p {
 	margin-top: 0px;
 	margin-bottom: 0;
 }
-.post p, .post img {
+#post p, #post img {
 	margin: 0;
 	/* background: white; */
 	padding-left: 20px;
